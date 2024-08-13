@@ -1,0 +1,5 @@
+https://ui.aceternity.com/components/images-slider
+https://www.cult-ui.com/docs/components/three-d-carousel
+https://www.edilozi.pro/docs/components/two-way-parallax
+https://ui.lukacho.com/components
+https://magicui.design/docs/components/blur-fade
