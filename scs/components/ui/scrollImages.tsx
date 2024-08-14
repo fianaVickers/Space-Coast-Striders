@@ -66,7 +66,7 @@ export function ScrollVelocityDemo() {
                   src={thumbnail}
                   alt={title}
                   fill={true}
-                  className="h-full w-full object-cover object-center"
+                  className="h-full w-full object-cover object-center rounded-lg"
                 />
               </div>
             ))}

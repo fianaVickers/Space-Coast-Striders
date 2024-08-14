@@ -9,6 +9,7 @@ import { WavyBackgroundCom } from "@/components/ui/WavyPageCom";
 import { ScrollVelocityDemo } from "@/components/ui/scrollImages";
 import { HeroHighlightDemo } from "@/components/ui/homePageMvtStmt";
 import { FlipWordsDemo } from "@/components/ui/MotivaFlipper";
+import Link from 'next/link';
 import './teamPic.css'
 
 function handleRegClick() {
@@ -28,12 +29,24 @@ export default function Home() {
             alt="Shuttle"
             className="shuttle"
           />
-          <Button variant="ghost">Pricing</Button>
-          <Button variant="ghost">Meets</Button>
-          <Button variant="ghost">Space Coast Invitational</Button>
-          <Button variant="ghost">Contact</Button>
-          <Button variant="ghost">Sponsors</Button>
-          <Button className="bg-orange-500 text-white" onClick={handleRegClick} variant="outline">Register</Button>
+          <Link href="/pricingPage" passHref>
+            <Button variant="ghost">Pricing</Button>
+          </Link>
+          <Link href="/meetsPage" passHref>
+            <Button variant="ghost">Meets</Button>
+          </Link>
+          <Link href="/scsPage" passHref>
+            <Button variant="ghost">Space Coast Invitational</Button>
+          </Link>
+          <Link href="/pricingPage" passHref>
+            <Button variant="ghost">Contact</Button>
+          </Link>
+          <Link href="/sponsorsPage" passHref>
+            <Button variant="ghost">Sponsors</Button>
+          </Link>
+          <Link href="/regPage" passHref>
+            <Button className="bg-orange-500 text-white" onClick={handleRegClick} variant="outline">Register</Button>
+          </Link>
         </div>
         <VortexUI></VortexUI>
         <FlipWordsDemo></FlipWordsDemo>

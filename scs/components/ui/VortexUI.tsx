@@ -21,10 +21,10 @@ export function VortexUI() {
           Track and Field AAU Club
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
-          <button className="px-4 py-2 bg-blue-600 hover:bg-blue-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]">
-            Order now
+          <button className="px-4 py-2 bg-orange-600 hover:bg-gray-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]">
+           Register Now
           </button>
-          <button className="px-4 py-2  text-white ">Watch trailer</button>
+          <button className="px-4 py-2  text-white ">Meets</button>
         </div>
       </Vortex>
     </div>
