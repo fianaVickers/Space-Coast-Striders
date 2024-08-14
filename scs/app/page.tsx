@@ -3,6 +3,12 @@ import { Head } from "next/document"
 import { Button } from "@/components/ui/button"
 import Image from "next/image";
 import { pages } from "next/dist/build/templates/app-page";
+import { VortexUI } from "@/components/ui/VortexUI";
+import { FloatingNavDemo } from "@/components/ui/navBar";
+import { WavyBackgroundCom } from "@/components/ui/WavyPageCom";
+import { ScrollVelocityDemo } from "@/components/ui/scrollImages";
+import { HeroHighlightDemo } from "@/components/ui/homePageMvtStmt";
+import { FlipWordsDemo } from "@/components/ui/MotivaFlipper";
 import './teamPic.css'
 
 function handleRegClick() {
@@ -13,6 +19,7 @@ export default function Home() {
   return (
     <main>
       <div>
+        <FloatingNavDemo></FloatingNavDemo>
         <div className="header">
           <Image
             src="/shuttle.png"
@@ -28,28 +35,13 @@ export default function Home() {
           <Button variant="ghost">Sponsors</Button>
           <Button className="bg-orange-500 text-white" onClick={handleRegClick} variant="outline">Register</Button>
         </div>
-        <hr></hr>
-
-        <div className="picture">
-          <div className="image-container">
-            <Image
-              className="image"
-              src="/teamPic.jpg"
-              width={300}
-              height={300}
-              alt="Team Picture"
-            />
-            <div className="overlay">
-              <div className="overlay-SCS">
-                <p>Space Coast Striders</p>
-                <p>AAU Track and Field</p>
-              </div>
-            </div>
-          </div>
+        <VortexUI></VortexUI>
+        <FlipWordsDemo></FlipWordsDemo>
+        <div>
+          <ScrollVelocityDemo></ScrollVelocityDemo>
         </div>
-
+        <HeroHighlightDemo></HeroHighlightDemo>
       </div>
-
     </main>
   );
 }
