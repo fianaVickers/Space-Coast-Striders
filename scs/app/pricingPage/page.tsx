@@ -1,8 +1,14 @@
+import { PricingComponent } from "@/components/ui/priceCardReal";
 export default function PricingPage() {
-    return (
+  return (
+    <div>
+      <h1>Pricing Page</h1>
       <div>
-        <h1>Pricing Page</h1>
+        <PricingComponent></PricingComponent>
+        <PricingComponent></PricingComponent>
+        <PricingComponent></PricingComponent>
       </div>
-    );
-  }
-  
+
+    </div>
+  );
+}
