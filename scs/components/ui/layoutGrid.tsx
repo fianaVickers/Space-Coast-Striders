@@ -4,7 +4,7 @@ import { LayoutGrid } from "../ui/layout-grid";
 
 export function LayoutGridDemo() {
   return (
-    <div className="h-screen py-15 w-full">
+    <div className="h-screen py-60 px-50 w-screen">
       <LayoutGrid cards={cards} />
     </div>
   );
@@ -30,7 +30,7 @@ const SkeletonTwo = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        The Beast showed out! 
+        Meet the Beast! 
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-bold text-base my-4 max-w-lg text-neutral-300">

@@ -29,7 +29,7 @@ export default function Home() {
           <HeroHighlightDemo></HeroHighlightDemo>
         </BlurFade>
 
-        <div className="h-[15rem] flex justify-center items-center px-15">
+        <div className="h-[3rem] pt-40 flex justify-center items-center">
           <div className="text-7xl font-bold text-neutral-700">
             Meet our Beast of the Meet!
           </div>
