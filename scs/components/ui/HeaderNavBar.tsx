@@ -24,7 +24,7 @@ export function NavBars() {
             <Link href="/scsPage" passHref>
                 <Button variant="ghost">Space Coast Invitational</Button>
             </Link>
-            <Link href="/pricingPage" passHref>
+            <Link href="/contactPage" passHref>
                 <Button variant="ghost">Contact</Button>
             </Link>
             <Link href="/sponsorsPage" passHref>

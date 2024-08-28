@@ -1,10 +1,12 @@
 import { NavBars } from "@/components/ui/HeaderNavBar";
-export default function InvitationalPage() {
+import { ShootingStarsAndStarsBackgroundDemo } from "@/components/ui/shootingStarts";
+import { FooterComp } from "@/components/ui/footer";
+export default function contactPage() {
     return (
       <div>
         <NavBars></NavBars>
-        <h1>Invitational Page</h1>
+        <ShootingStarsAndStarsBackgroundDemo content={"The Space Coast Invitational"}></ShootingStarsAndStarsBackgroundDemo>
+        <FooterComp></FooterComp>      
       </div>
     );
   }
-  

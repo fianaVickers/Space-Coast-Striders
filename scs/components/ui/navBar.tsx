@@ -22,7 +22,7 @@ export function FloatingNavDemo() {
     },
     {
       name: "Contact",
-      link: "/sponsorsPage",
+      link: "/contactPage",
       icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {

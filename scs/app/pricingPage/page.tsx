@@ -13,7 +13,7 @@ export default function PricingPage() {
   return (
     <div>
       <NavBars></NavBars>
-      <ShootingStarsAndStarsBackgroundDemo></ShootingStarsAndStarsBackgroundDemo>
+      <ShootingStarsAndStarsBackgroundDemo content={"Join the Team"}></ShootingStarsAndStarsBackgroundDemo>
       <p className="whitespace-pre-wrap text-7xl font-medium tracking-tighter text-black dark:text-white mt-20">
         <NumberTicker value={100} />
         <span className="text-3xl whitespace-pre-wrap"> Athletes Registered</span>

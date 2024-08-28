@@ -31,7 +31,7 @@ export default function Home() {
 
         <div className="h-[3rem] pt-40 flex justify-center items-center">
           <div className="text-7xl font-bold text-neutral-700">
-            Meet our Beast of the Meet!
+            Meet our current Beast of the Meet!
           </div>
         </div>
 
