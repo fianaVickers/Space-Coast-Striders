@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 import { Vortex } from "../ui/vortex";
 
 export function VortexUI() {
@@ -21,9 +22,11 @@ export function VortexUI() {
           Track and Field AAU Club
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
-          <button className="px-4 py-2 bg-orange-600 hover:bg-gray-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]">
-           Register Now
-          </button>
+          <Link href="/pricingPage" passHref>
+            <button className="px-4 py-2 bg-orange-600 hover:bg-gray-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]">
+              Register Now
+            </button>
+          </Link>
           <button className="px-4 py-2  text-white ">Meets</button>
         </div>
       </Vortex>

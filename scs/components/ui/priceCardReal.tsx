@@ -1,18 +1,17 @@
 import React from 'react'
 import { Description, Offering, OfferingWrapper, Price, PriceCard, ProductName } from './priceCard'
 
-export const PricingComponent = () => (
-  <PriceCard contactPageHref={'/'}>
-    <ProductName>Regular Club Membership</ProductName>
-    <Price>$79.99/season</Price>
+export const PricingComponent = ({ name, price, description, perks }) => (
+  <PriceCard className="mx-5 mb-10" contactPageHref={'/'}>
+    <ProductName>{name}</ProductName>
+    <Price>{price}</Price>
     <Description>
-      Special UI component for your website made with React.js, TailwindCSS and FramerMotion.
+      {description}
     </Description>
     <OfferingWrapper>
-      <Offering>AAU Membership Card</Offering>
-      <Offering>Track Meet Uniform</Offering>
-      <Offering>Warm Up Set</Offering>
-      <Offering>Space Coast Invitational admission</Offering>
+      {perks.map((perk, index) => (
+        <Offering>{perk}</Offering>
+      ))}
     </OfferingWrapper>
   </PriceCard>
 )
