@@ -10,7 +10,7 @@ export default function contactPage() {
 
             <div className="h-[10rem] p-30 flex justify-center items-center">
                 <div className="text-5xl font-bold text-neutral-700">
-                    We appreciate your interest!
+                    We Appreciate your Interest!
                 </div>
             </div>
 
