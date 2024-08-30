@@ -1,16 +1,18 @@
 import React from 'react'
 import { Description, Offering, OfferingWrapper, Price, PriceCard, ProductName } from './priceCard'
 
-export const PricingComponent = ({ name, price, description, perks }) => (
+export const PricingComponent = ({children, prodName, price,
+   description, perks} : {children:any, prodName: any, price: any,
+    description: any, perks: any}) => (
   <PriceCard className="mx-5 mb-10" contactPageHref={'/'}>
-    <ProductName>{name}</ProductName>
+    <ProductName>{prodName}</ProductName>
     <Price>{price}</Price>
     <Description>
       {description}
     </Description>
     <OfferingWrapper>
-      {perks.map((perk) => (
-        <Offering>{perk}</Offering>
+      {perks.map((perk: string | undefined, index: any) => (
+        <Offering key={null}>{perk}</Offering>
       ))}
     </OfferingWrapper>
   </PriceCard>

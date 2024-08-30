@@ -19,9 +19,9 @@ export default function PricingPage() {
         <span className="text-3xl whitespace-pre-wrap"> Athletes Registered</span>
       </p>
       <div className="flex justify-center mt-20">
-        <PricingComponent name={"Base Membership"} price={"$79.99/Season"} description={exampleDesc} perks={basePerks}> </PricingComponent>
-        <PricingComponent name={"Intermediate Membership"} price={"$99.99/Season"} description={exampleDesc} perks={intPerks}> </PricingComponent>
-        <PricingComponent name={"SCS Pro Club Membership"} price={"$129.99/Season"} description={exampleDesc} perks={expPerks}> </PricingComponent>
+        <PricingComponent prodName={"Base Membership"} price={"$79.99/Season"} description={exampleDesc} perks={basePerks}> </PricingComponent>
+        <PricingComponent prodName={"Intermediate Membership"} price={"$99.99/Season"} description={exampleDesc} perks={intPerks}> </PricingComponent>
+        <PricingComponent prodName={"SCS Pro Club Membership"} price={"$129.99/Season"} description={exampleDesc} perks={expPerks}> </PricingComponent>
 
       </div>
       <FooterComp></FooterComp>
