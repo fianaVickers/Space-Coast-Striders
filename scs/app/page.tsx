@@ -8,10 +8,15 @@ import { NavBars } from "@/components/ui/HeaderNavBar";
 import { FooterComp } from "@/components/ui/footer";
 import { LayoutGridDemo } from "@/components/ui/layoutGrid";
 import './teamPic.css'
+import Head from "next/head";
 
 export default function Home() {
   return (
+    
     <main>
+      <Head>
+        <link rel="icon" href="/shuttle.png" />
+      </Head>
       <div>
         <NavBars></NavBars>
         <VortexUI></VortexUI>
