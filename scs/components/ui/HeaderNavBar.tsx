@@ -1,5 +1,3 @@
-
-import { Head } from "next/document"
 import { Button } from "@/components/ui/button"
 import Image from "next/image";
 import { FloatingNavDemo } from "@/components/ui/navBar";

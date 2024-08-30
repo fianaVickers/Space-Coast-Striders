@@ -9,7 +9,7 @@ export const PricingComponent = ({ name, price, description, perks }) => (
       {description}
     </Description>
     <OfferingWrapper>
-      {perks.map((perk, index) => (
+      {perks.map((perk) => (
         <Offering>{perk}</Offering>
       ))}
     </OfferingWrapper>
