@@ -3,7 +3,6 @@ import React from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import IconButton from '@mui/material/IconButton';
 import Menu from '@mui/material/Menu';
-import { Button } from "@/components/ui/button"
 import MenuItem from '@mui/material/MenuItem';
 import Link from 'next/link';
 
@@ -14,10 +13,12 @@ export function HamburgerMenu() {
     const handleClose = () => setAnchorEl(null);
 
     return (
-        <div className='block md:hidden'>
+        <div className='block md:hidden bg-neutral-900'>
             <IconButton onClick={handleClick}>
-                <MenuIcon />
+                <MenuIcon style={{ color: "white" }} />
+                
             </IconButton>
+            
             <Menu
                 anchorEl={anchorEl}
                 open={Boolean(anchorEl)}
